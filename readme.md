@@ -12,3 +12,4 @@ navigate and view product details.
 
 #### TODO NOTES
 - Gulp Script for JS minify
+- Finalize DB config and FetchAPI
