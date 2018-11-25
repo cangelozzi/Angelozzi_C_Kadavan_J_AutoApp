@@ -8,8 +8,11 @@ navigation - you’ll need to move from this page to an interactive “details�
 showcases selected features. The “details” page should also have controls to
 navigate and view product details.
 
-###### Under Construction, due 2019
+#### TOOLS USED
+- SASS 
+- GULP
+- Vue.js for handling data to frontend DOM.
+- PHP connection via PDO class to connect with database.
+- FetchAPI to get data from db query.
 
-#### TODO NOTES
-- Gulp Script for JS minify
-- Finalize DB config and FetchAPI
+###### Under Construction, due 2019
