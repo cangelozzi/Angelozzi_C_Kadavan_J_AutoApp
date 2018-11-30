@@ -5,5 +5,8 @@ html {
 }
 
 // TEST
-body {background-color: $color-black;}
+body {
+  background-color: $color-black;
+  color: $color-white;
+}
 // end TEST

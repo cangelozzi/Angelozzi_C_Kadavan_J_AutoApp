@@ -7,7 +7,7 @@
     el: '#app',
 
     data: {
-      welcomeMsg: "Welcome to Auto App. Below is a test video.",
+      welcomeMsg: "Welcome to Auto App.",
       autodata: []
     },
 
