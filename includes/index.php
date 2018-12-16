@@ -1,10 +1,12 @@
 
 <?php
 require 'functions.php';
+$config = require 'config.php';
 
-  // instantiate database and product object
+  // instantiate database 
   $database = new Database();
-  $conn = $database->getConnection();
+  // pass db details safely to make connection function
+  $conn = $database->getConnection($config['db_details']);
 
   $data = get_auto($conn);
   echo json_encode($data);
